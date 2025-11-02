@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Beautiful Image Gallery</h1>
+
+  <!-- Category Buttons -->
+  <div class="buttons">
+    <button class="filter-btn" data-category="all">All</button>
+    <button class="filter-btn" data-category="nature">Nature</button>
+    <button class="filter-btn" data-category="sunset">Sunset</button>
+    <button class="filter-btn" data-category="city">City</button>
+    <button class="filter-btn" data-category="beach">Beach</button>
+    <button class="filter-btn" data-category="flowers">Flowers</button>
+    <button class="filter-btn" data-category="travel">Travel</button>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <div class="image-container nature">
+      <img src="images/img1.jpg" alt="Nature">
+      <p>Nature</p>
+    </div>
+
+    <div class="image-container sunset">
+      <img src="images/img2.jpg" alt="Sunset">
+      <p>Sunset</p>
+    </div>
+
+    <div class="image-container city">
+      <img src="images/img3.jpg" alt="City">
+      <p>City</p>
+    </div>
+
+    <div class="image-container beach">
+      <img src="images/img4.jpg" alt="Beach">
+      <p>Beach</p>
+    </div>
+
+    <div class="image-container flowers">
+      <img src="images/img5.jpg" alt="Flowers">
+      <p>Flowers</p>
+    </div>
+
+    <div class="image-container travel">
+      <img src="images/img6.jpg" alt="Travel">
+      <p>Travel</p>
+    </div>
+  </div>
+
+  <!-- Fullscreen Image Popup -->
+  <div class="fullscreen" id="fullscreen">
+    <span class="close" id="close">&times;</span>
+    <img id="fullImg" src="" alt="Full Image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
